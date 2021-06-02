@@ -1,0 +1,6 @@
+language: java
+jobs:
+  include:
+    - script: |
+     cd MavenTest
+     mvn package
